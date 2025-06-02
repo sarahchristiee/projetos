@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><link/>
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <title>Reprise</title>
+</head>
+<body>
+
+  <!-- Barra Superior com Texto -->
+    <section class="top-bar">
+    <p><a class="faca-conta" href="#">Cadastre-se</a> e ganhe 20% de desconto na primeira compra</p>
+    </section>
+  
+  <!-- Barra de Navegação Principal -->
+  <header class="navbar">
+    <section class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo Reprise"></section></a>
+    <section class="nav-links">
+    <section class="dropdown">
+      <button class="dropbtn">
+        Categorias
+      </button>
+      <section class="droplist">
+        <a href="">Todos</a>
+        <a href="">POP</a>
+        <a href="">Musicais</a>
+        <a href="">Rock</a>
+      </section>
+    </section>
+    <p class="nav-link">Sobre Nós</p>
+    </section>    
+    <section class="campo-pesquisa">
+    <i class="fas fa-search"></i>
+    <input class="pesquisa" type="text">
+    </section>
+    <section class="icons">
+    <a href="#"><i class="fas fa-shopping-cart"></i> </a>
+    <a href="cadastro.html"><i class="fas fa-user-circle"></i></a>
+    </section>
+  </header>
+
+  <hr class="LinhaMenu">
+
+  <!-- campo para se cadastrar -->
+  <main>
+    <img src="/img/cadastro.jpg" alt="" class="ImagemCadastro" />
+  
+    <form action="login.html" method="POST"> <!-- ou action="" se quiser processar na mesma página -->
+      <h1 class="titulocadastro">Faça seu Cadastro</h1>
+  
+      <section class="cadastro">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+  
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required />
+  
+        <label for="confirmar-senha">Confirmar senha</label>
+        <input type="password" id="confirmar-senha" name="confirmar_senha" required />
+
+        <a class="Logar" href="login.html">Cadastrar</a>
+  
+        <button type="button" class="google">
+          <img src="img/google.png" alt="" class="SimboloGoogle" />
+          Entrar com Google
+        </button>
+  
+      </section>
+      <p class="Transferir">Já tem uma conta? <a href="login.html">Faça Login</a></p>
+    </form>
+  </main>  
+</body>
+<footer>
+    <section class="logo-section">
+      <img src="img/logo.png" alt="Logo Reprise" class="logofooter">
+      <p class="descricao">Oferecemos qualquer estilo de música que você procura mantendo o estilo retrô que tanto amamos!</p>
+    </section>
+
+    <section class="social-section">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Tumblr"><i class="fab fa-tumblr"></i></a>
+    </section>
+
+    <section class="links-section">
+      <a href="#">Termos De Uso</a> |
+      <a href="#">Política De Privacidade</a> |
+      <a href="#">Quem Somos</a> |
+      <a href="#">Entre em Contato</a>
+    </section>
+
+    <hr>
+
+    <section class="bottom-section">
+      <p>Reprise © 2000–2025, Todos os direitos reservados</p>
+    </section>
+  </footer>
+</html>
